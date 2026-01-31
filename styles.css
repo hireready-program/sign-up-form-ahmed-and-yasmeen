@@ -14,8 +14,28 @@ main {
   height: 100%;
 }
 .left {
-  background-color: red;
+  position: relative;
+  background-image: url('./assets/images/left-background.jpg');
+  background-size: contain;
   width: 30%;
+}
+.left .logo-holder {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left .logo-holder img {
+  max-height: 80% ;
+}
+.left .logo-holder P {
+  font-size: 50px;
 }
 .right {
   width: 70%;
