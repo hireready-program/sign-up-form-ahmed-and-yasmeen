@@ -39,5 +39,21 @@ main {
 }
 .right {
   width: 70%;
-  background-color: green;
+  background-color: rgb(249,250,251);
 }
+.right .right-container {
+  width: 80%;
+  margin: auto;
+}
+.right .right-container .content-area {
+  padding-top: 80px;
+}
+.right .right-container .content-area p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+/* .right .right-container .content-area p em {
+font-style: italic;
+} */
+
