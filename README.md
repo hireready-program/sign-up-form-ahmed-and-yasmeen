@@ -44,7 +44,6 @@ It’s a foundational frontend component useful in many web application scenario
 | `index.html` | Main HTML structure of the signup form |
 | `styles.css` | CSS for layout, design, and responsive behavior |
 | `assets/images/` | Images and graphics used in the UI |
-| `.github/` | GitHub configuration (if present) |
 
 ---
 
