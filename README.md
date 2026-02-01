@@ -6,8 +6,7 @@ A clean, responsive **Sign-Up Form UI** built with **HTML and CSS** as part of o
 
 ## 🚀 Live Demo
 
-➡️ _Add your live demo link here (if deployed on GitHub Pages / Netlify / Vercel)_  
-Example: https://hireready-program.github.io/sign-up-form-ahmed-and-yasmeen
+➡️ https://hireready-program.github.io/sign-up-form-ahmed-and-yasmeen/
 
 ---
 
