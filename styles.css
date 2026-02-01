@@ -14,10 +14,104 @@ main {
   height: 100%;
 }
 .left {
-  background-color: red;
+  position: relative;
+  background-image: url("./assets/images/left-background.jpg");
+  background-size: contain;
   width: 30%;
+}
+.left .logo-holder {
+  position: absolute;
+  top: 25%;
+  left: 0;
+  color: white;
+  width: 100%;
+  height: 100px;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.left .logo-holder img {
+  max-height: 80%;
+}
+.left .logo-holder P {
+  font-size: 50px;
 }
 .right {
   width: 70%;
-  background-color: green;
+  background-color: rgb(249, 250, 251);
+}
+
+.right .content-area {
+  padding-top: 80px;
+  padding-left: 3%;
+}
+.right .content-area p {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 1.2;
+}
+.inputs {
+  background-color: white;
+  box-shadow: 0px 4px 10px 1px #0000001a;
+}
+
+.inputs {
+  padding-top: 0.5%;
+  padding-left: 3%;
+  padding-bottom: 3%;
+}
+.inputs p {
+  font-size: 18px;
+  font-weight: 700;
+}
+.input {
+  display: flex;
+  flex-direction: column;
+}
+.inputs-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 5%;
+}
+input {
+  width: 50%;
+  height: 26px;
+  border: 1px solid#E5E7EB;
+  border-radius: 5px;
+  outline: none;
+}
+
+input:focus {
+  border: 1px solid rgb(69, 69, 136);
+  box-shadow: 2px 2px 5px 1px #0f0e0e4b;
+}
+input[type="password"] {
+  border: 1px solid red;
+  box-shadow: none;
+}
+
+label {
+  font-size: 15px;
+}
+
+button {
+  background-color: #596d48;
+  color: white;
+  font-weight: 700;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  padding: 10px 30px;
+  margin-top: 25px;
+  margin-left: 30px;
+  cursor: pointer;
+}
+.have-account{
+  margin-left: 30px;
+}
+a{
+  color: #596d48;
+  text-decoration: none;
 }
