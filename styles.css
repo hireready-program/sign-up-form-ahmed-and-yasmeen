@@ -13,13 +13,13 @@ main {
   display: flex;
   height: 100%;
 }
-.left {
+.hero {
   position: relative;
   background-image: url("./assets/images/left-background.jpg");
   background-size: contain;
   width: 30%;
 }
-.left .logo-holder {
+.hero .logo-holder {
   position: absolute;
   top: 25%;
   left: 0;
@@ -31,22 +31,22 @@ main {
   justify-content: center;
   align-items: center;
 }
-.left .logo-holder img {
+.hero .logo-holder img {
   max-height: 80%;
 }
-.left .logo-holder P {
+.hero .logo-holder P {
   font-size: 50px;
 }
-.right {
+.signup {
   width: 70%;
   background-color: rgb(249, 250, 251);
 }
 
-.right .content-area {
+.signup .content-area {
   padding-top: 80px;
   padding-left: 3%;
 }
-.right .content-area p {
+.signup .content-area p {
   font-size: 18px;
   font-weight: 700;
   line-height: 1.2;
@@ -60,8 +60,9 @@ main {
   padding-top: 0.5%;
   padding-left: 3%;
   padding-bottom: 3%;
+  border: none;
 }
-.inputs p {
+.inputs legend {
   font-size: 18px;
   font-weight: 700;
 }
@@ -71,12 +72,13 @@ main {
 }
 .inputs-grid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(3, 1fr);
-  gap: 5%;
+  grid-template-columns: repeat(2, 0.35fr);
+  grid-template-rows: repeat(3, 0.5fr);
+  gap: 5% 0%;
+
 }
 input {
-  width: 50%;
+  width: 80%;
   height: 26px;
   border: 1px solid#E5E7EB;
   border-radius: 5px;
@@ -108,10 +110,10 @@ button {
   margin-left: 30px;
   cursor: pointer;
 }
-.have-account{
+.have-account {
   margin-left: 30px;
 }
-a{
+a {
   color: #596d48;
   text-decoration: none;
 }
